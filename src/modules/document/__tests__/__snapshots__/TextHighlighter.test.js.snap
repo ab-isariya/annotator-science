@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextHighlighter: ControlF Finds multiple instances in document text using "candidate" 1`] = `
+Object {
+  "activeIndex": 0,
+  "foundAnnotation": false,
+  "initialIndex": 0,
+  "queryText": "candidate",
+  "results": Array [
+    Object {
+      "end": 87,
+      "snippet": Object {
+        "endText": ". for SARS-CoV-2. Qiang G",
+        "snippet": "candidate",
+        "startText": "f an inactivated vaccine ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 78,
+      "text": "candidate",
+    },
+    Object {
+      "end": 1048,
+      "snippet": Object {
+        "endText": ", which induced SARS-CoV-",
+        "snippet": "candidate",
+        "startText": "ARS-CoV-2 virus vaccine. ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 1039,
+      "text": "candidate",
+    },
+    Object {
+      "end": 5025,
+      "snippet": Object {
+        "endText": " SARS-CoV-2 vaccine, we i",
+        "snippet": "candidate",
+        "startText": " challenge models for a. ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 5016,
+      "text": "candidate",
+    },
+    Object {
+      "end": 8575,
+      "snippet": Object {
+        "endText": " PiCoVacc. (A) SARS-CoV-2",
+        "snippet": "candidate",
+        "startText": "f the SARS-CoV-2 vaccine ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 8566,
+      "text": "candidate",
+    },
+    Object {
+      "end": 26395,
+      "snippet": Object {
+        "endText": " for SARS-CoV-2. Qiang Ga",
+        "snippet": "candidate",
+        "startText": "f an inactivated vaccine ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 26386,
+      "text": "candidate",
+    },
+    Object {
+      "end": 26932,
+      "snippet": Object {
+        "endText": " tested in monkeys. Globa",
+        "snippet": "candidate",
+        "startText": "ine May 6, 2020. Vaccine ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 26923,
+      "text": "candidate",
+    },
+    Object {
+      "end": 27123,
+      "snippet": Object {
+        "endText": " called PiCoVacc, which p",
+        "snippet": "candidate",
+        "startText": "ults of an early vaccine ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 27114,
+      "text": "candidate",
+    },
+  ],
+}
+`;
+
+exports[`TextHighlighter: ControlF Finds no possible results with current selection 1`] = `
+Object {
+  "activeIndex": 0,
+  "foundAnnotation": false,
+  "initialIndex": 0,
+  "queryText": ". the novel",
+  "results": Array [],
+}
+`;
+
+exports[`TextHighlighter: ControlF Finds single instance in document text using "novelty" 1`] = `
+Object {
+  "activeIndex": 0,
+  "foundAnnotation": false,
+  "initialIndex": 0,
+  "queryText": "novelty",
+  "results": Array [
+    Object {
+      "end": 749,
+      "snippet": Object {
+        "endText": " of the virus, there are ",
+        "snippet": "novelty",
+        "startText": " crisis. Because of. the ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 742,
+      "text": "novelty",
+    },
+  ],
+}
+`;
+
+exports[`TextHighlighter: ControlF Has found an already defined annotation in the selection 1`] = `
+Object {
+  "activeIndex": 0,
+  "foundAnnotation": true,
+  "initialIndex": 0,
+  "queryText": "coronavirus",
+  "results": Array [
+    Object {
+      "end": 38,
+      "snippet": Object {
+        "endText": ". Development of an inact",
+        "snippet": "CORONAVIRUS",
+        "startText": "S EARCH. R E P O R T. ◥. ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 27,
+      "text": "CORONAVIRUS",
+    },
+    Object {
+      "end": 655,
+      "snippet": Object {
+        "endText": " 2 (SARS-CoV-2) has resul",
+        "snippet": "coronavirus",
+        "startText": "te respiratory syndrome. ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 644,
+      "text": "coronavirus",
+    },
+    Object {
+      "end": 2181,
+      "snippet": Object {
+        "endText": " 2 (SARS-CoV-2), the caus",
+        "snippet": "coronavirus",
+        "startText": " respiratory syn-. drome ",
+        "truncateEnd": true,
+        "truncateStart": true,
+      },
+      "start": 2170,
+      "text": "coronavirus",
+    },
+  ],
+}
+`;

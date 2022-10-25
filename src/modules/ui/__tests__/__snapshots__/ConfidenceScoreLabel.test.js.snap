@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConfidenceScoreLabel/> Renders a low key type without crashing 1`] = `
+<span
+  className="undefined"
+>
+  <svg>
+    Low.svg
+  </svg>
+</span>
+`;
+
+exports[`<ConfidenceScoreLabel/> Renders without crashing 1`] = `
+<span
+  className="undefined"
+>
+  <svg>
+    VeryHigh.svg
+  </svg>
+</span>
+`;

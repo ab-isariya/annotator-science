@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserIcon/> Renders without crashing 1`] = `
+<div
+  className="flex space-x-2.5 items-center"
+>
+  <div
+    className="relative"
+    style={
+      Object {
+        "height": "45px",
+      }
+    }
+  >
+    <div
+      className=" relative"
+    >
+      <svg>
+        User.svg
+      </svg>
+      <div
+        className="absolute top-2/4 left-2/4"
+        style={
+          Object {
+            "transform": "translate(-50%, -50%)",
+          }
+        }
+      >
+        <span
+          className="text-base capitalize"
+        >
+          h
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="text-base capitalize"
+  >
+    <span
+      className="font-light"
+    >
+      hello
+    </span>
+    <br />
+  </div>
+</div>
+`;

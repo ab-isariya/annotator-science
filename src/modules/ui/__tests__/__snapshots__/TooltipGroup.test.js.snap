@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TooltipGroup/> Renders with a custom theme 1`] = `
+Array [
+  <p
+    singleton={
+      Object {
+        "cleanup": [Function],
+        "hook": [Function],
+      }
+    }
+  >
+    Hello
+  </p>,
+  <p
+    singleton={
+      Object {
+        "cleanup": [Function],
+        "hook": [Function],
+      }
+    }
+  >
+    World
+  </p>,
+]
+`;
+
+exports[`<TooltipGroup/> Renders with children 1`] = `
+<p
+  singleton={
+    Object {
+      "cleanup": [Function],
+      "hook": [Function],
+    }
+  }
+>
+  Hello
+</p>
+`;
+
+exports[`<TooltipGroup/> Renders with dark and a set size 1`] = `
+<p
+  singleton={
+    Object {
+      "cleanup": [Function],
+      "hook": [Function],
+    }
+  }
+>
+  Hello
+</p>
+`;
+
+exports[`<TooltipGroup/> Renders with dark and a set size 2`] = `
+<p
+  singleton={
+    Object {
+      "cleanup": [Function],
+      "hook": [Function],
+    }
+  }
+>
+  Hello
+</p>
+`;
+
+exports[`<TooltipGroup/> Renders with delay and transition 1`] = `
+<p
+  singleton={
+    Object {
+      "cleanup": [Function],
+      "hook": [Function],
+    }
+  }
+>
+  Hello
+</p>
+`;
+
+exports[`<TooltipGroup/> Renders with delay and transition 2`] = `
+<p
+  singleton={
+    Object {
+      "cleanup": [Function],
+      "hook": [Function],
+    }
+  }
+>
+  Hello
+</p>
+`;
+
+exports[`<TooltipGroup/> Renders without crashing 1`] = `
+<p
+  singleton={
+    Object {
+      "cleanup": [Function],
+      "hook": [Function],
+    }
+  }
+>
+  Hello
+</p>
+`;

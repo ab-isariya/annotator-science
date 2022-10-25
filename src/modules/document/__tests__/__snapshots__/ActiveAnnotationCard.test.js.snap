@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActiveAnnotationCard/> Renders as a Manual Annotation Card 1`] = `ShallowWrapper {}`;
+
+exports[`<StatusBorder/> renders status border as Accepted 1`] = `ShallowWrapper {}`;
+
+exports[`<StatusBorder/> renders status border as Not Reviewed 1`] = `ShallowWrapper {}`;
+
+exports[`<StatusBorder/> renders status border as Rejected 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading/> Renders with a custom classname 1`] = `
+<div
+  className="testClass"
+>
+  Loading...
+</div>
+`;
+
+exports[`<Loading/> Renders without crashing 1`] = `
+<div>
+  Loading...
+</div>
+`;

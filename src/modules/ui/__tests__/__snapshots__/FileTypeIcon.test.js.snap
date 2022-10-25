@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileTypeIcon/> Renders with a custom classname 1`] = `
+<svg
+  className="testClass"
+>
+  IconPdf.svg
+</svg>
+`;
+
+exports[`<FileTypeIcon/> Renders without crashing 1`] = `
+<svg>
+  IconDocx.svg
+</svg>
+`;

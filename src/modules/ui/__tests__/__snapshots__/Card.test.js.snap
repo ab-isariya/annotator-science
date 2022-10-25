@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card/> Renders with a custom classname 1`] = `
+<div
+  className="border border-grey-100 rounded-md  p-4 
+      bg-white
+      
+      testClass"
+/>
+`;
+
+exports[`<Card/> Renders with a custom padding 1`] = `
+<div
+  className="border border-grey-100 rounded-md  px-3 
+      bg-white
+      
+      undefined"
+/>
+`;
+
+exports[`<Card/> Renders with active classes 1`] = `
+<div
+  className="border border-grey-100 rounded-md  p-4 
+      filter-active bg-grey-50
+      
+      undefined"
+/>
+`;
+
+exports[`<Card/> Renders with children 1`] = `
+<div
+  className="border border-grey-100 rounded-md  p-4 
+      bg-white
+      
+      undefined"
+>
+  Hello
+</div>
+`;
+
+exports[`<Card/> Renders with hover classes 1`] = `
+<div
+  className="border border-grey-100 rounded-md  p-4 
+      bg-white
+      hover:bg-grey-50
+      undefined"
+/>
+`;
+
+exports[`<Card/> Renders without crashing 1`] = `
+<div
+  className="border border-grey-100 rounded-md  p-4 
+      bg-white
+      
+      undefined"
+/>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGroup/> Renders with a custom classname 1`] = `
+<div
+  className="flex flex-row items-stretch overflow-hidden border-grey-500 border rounded-md h-full testClass"
+/>
+`;
+
+exports[`<ButtonGroup/> Renders with children 1`] = `
+<div
+  className="flex flex-row items-stretch overflow-hidden border-grey-500 border rounded-md h-full undefined"
+>
+  Hello
+</div>
+`;
+
+exports[`<ButtonGroup/> Renders without crashing 1`] = `
+<div
+  className="flex flex-row items-stretch overflow-hidden border-grey-500 border rounded-md h-full undefined"
+/>
+`;

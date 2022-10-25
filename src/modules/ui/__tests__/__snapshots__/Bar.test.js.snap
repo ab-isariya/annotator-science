@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bar/> Renders with a blue-500 bar at 100% width 1`] = `
+<div
+  style={
+    Object {
+      "width": "200px",
+    }
+  }
+>
+  <div
+    className="relative flex-1"
+  >
+    <div
+      className="absolute h-full left-0 rounded-r-md bg-blue-500"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+    <div
+      className="relative flex items-center undefined"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Bar/> Renders with children, a red-500 bar, and a padding of px-2 1`] = `
+<div
+  className="relative flex-1"
+>
+  <div
+    className="absolute h-full left-0 rounded-r-md bg-red-500"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="relative flex items-center px-2"
+  >
+    I should render.
+  </div>
+</div>
+`;
+
+exports[`<Bar/> Renders without crashing 1`] = `
+<div
+  className="relative flex-1"
+>
+  <div
+    className="absolute h-full left-0 rounded-r-md bg-blue-500"
+    style={
+      Object {
+        "width": "0%",
+      }
+    }
+  />
+  <div
+    className="relative flex items-center undefined"
+  />
+</div>
+`;

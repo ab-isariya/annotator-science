@@ -1,0 +1,33 @@
+name: Poolparty Deploy
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  lifeguard:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2.3.5
+    - name: Setup Node
+      uses: actions/setup-node@v2.4.1
+    - name: Setup npmrc
+      run: echo "//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}" > .npmrc
+    - name: NPM Install
+      run: |
+        npm install 
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    - name: Prettier
+      run: npm run pretty
+    - name: EsLint
+      run: npm run lint
+    - name: Label this PR with automerge
+      uses: TimonVS/pr-labeler-action@v3
+      with:
+        configuration-path: .github/pr-labeler.yml # optional, .github/pr-labeler.yml is the default value
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        

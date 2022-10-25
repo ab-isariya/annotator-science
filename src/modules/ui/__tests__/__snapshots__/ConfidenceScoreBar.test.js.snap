@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConfidenceScoreBar/> Renders a low key type without crashing 1`] = `
+<div
+  className="relative flex-1"
+>
+  <div
+    className="absolute h-full left-0 rounded-r-md bg-orange-50"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="relative flex items-center px-1.5 py-1"
+  >
+    <span
+      className="capitalize font-inter font-normal text-xs text-orange-500"
+    >
+      Low
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<ConfidenceScoreBar/> Renders with size provided without crashing 1`] = `
+<div
+  className="relative flex-1"
+>
+  <div
+    className="absolute h-full left-0 rounded-r-md bg-orange-50"
+    style={
+      Object {
+        "width": "20%",
+      }
+    }
+  />
+  <div
+    className="relative flex items-center px-1.5 py-1"
+  >
+    <span
+      className="capitalize font-inter font-normal text-xs text-orange-500"
+    >
+      Low
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<ConfidenceScoreBar/> Renders without crashing 1`] = `
+<div
+  className="relative flex-1"
+>
+  <div
+    className="absolute h-full left-0 rounded-r-md bg-green-50"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="relative flex items-center px-1.5 py-1"
+  >
+    <span
+      className="capitalize font-inter font-normal text-xs text-green-700"
+    >
+      Very High
+    </span>
+  </div>
+</div>
+`;

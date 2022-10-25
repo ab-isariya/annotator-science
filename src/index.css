@@ -1,0 +1,281 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For use at small sizes in UI */
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf')
+    format('truetype');
+  font-weight: 100 1000;
+  font-stretch: 25% 151%;
+}
+
+/* To distinguish research text from surrounding UI */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('assets/fonts/Merriweather/Merriweather-300-Light.ttf')
+    format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('assets/fonts/Merriweather/Merriweather-300-LightItalic.ttf')
+    format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('assets/fonts/Merriweather/Merriweather-400-Regular.ttf')
+    format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('assets/fonts/Merriweather/Merriweather-400-RegularItalic.ttf')
+    format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('assets/fonts/Merriweather/Merriweather-800-Bold.ttf')
+    format('truetype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('assets/fonts/Merriweather/Merriweather-800-BoldItalic.ttf')
+    format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('assets/fonts/Merriweather/Merriweather-900-Black.ttf')
+    format('truetype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('assets/fonts/Merriweather/Merriweather-900-BlackItalic.ttf')
+    format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Monowidth for code samples and documentation */
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: 100 1000;
+  font-stretch: 25% 151%;
+}
+
+/* For use in all marketing, headlines and running text */
+@font-face {
+  font-family: 'Sora';
+  src: url('./assets/fonts/Sora/Sora-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 1000;
+  font-stretch: 25% 151%;
+}
+
+.tippy-box[data-theme~='annotate-large'] {
+  background-color: #e3e8ee;
+  filter: drop-shadow(0px 1px 2px #a3acb9);
+  color: #000;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.tippy-box[data-theme~='annotate-large'] .tippy-content {
+  padding: 6px 8px;
+}
+
+.tippy-box[data-theme~='annotate-large'][data-placement^='top']
+  > .tippy-arrow::before {
+  border-top-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-large'][data-placement^='bottom']
+  > .tippy-arrow::before {
+  border-bottom-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-large'][data-placement^='left']
+  > .tippy-arrow::before {
+  border-left-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-large'][data-placement^='right']
+  > .tippy-arrow::before {
+  border-right-color: #e3e8ee;
+}
+
+.tippy-box[data-theme~='annotate-medium'] {
+  background-color: #e3e8ee;
+  filter: drop-shadow(0px 1px 2px #a3acb9);
+  color: #000;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.tippy-box[data-theme~='annotate-medium'] .tippy-content {
+  padding: 4px 6px;
+}
+
+.tippy-box[data-theme~='annotate-medium'][data-placement^='top']
+  > .tippy-arrow::before {
+  border-top-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-medium'][data-placement^='bottom']
+  > .tippy-arrow::before {
+  border-bottom-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-medium'][data-placement^='left']
+  > .tippy-arrow::before {
+  border-left-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-medium'][data-placement^='right']
+  > .tippy-arrow::before {
+  border-right-color: #e3e8ee;
+}
+
+.tippy-box[data-theme~='annotate-small'] {
+  background-color: #e3e8ee;
+  filter: drop-shadow(0px 1px 2px #a3acb9);
+  color: #000;
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.tippy-box[data-theme~='annotate-small'] .tippy-content {
+  padding: 2px 4px;
+}
+
+.tippy-box[data-theme~='annotate-small'][data-placement^='top']
+  > .tippy-arrow::before {
+  border-top-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-small'][data-placement^='bottom']
+  > .tippy-arrow::before {
+  border-bottom-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-small'][data-placement^='left']
+  > .tippy-arrow::before {
+  border-left-color: #e3e8ee;
+}
+.tippy-box[data-theme~='annotate-small'][data-placement^='right']
+  > .tippy-arrow::before {
+  border-right-color: #e3e8ee;
+}
+
+.tippy-box[data-theme~='annotate-dark-large'] {
+  background-color: #2a2f45;
+  filter: drop-shadow(0px 1px 2px #a3acb9);
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.tippy-box[data-theme~='annotate-dark-large'] .tippy-content {
+  padding: 6px 8px;
+}
+
+.tippy-box[data-theme~='annotate-dark-large'][data-placement^='top']
+  > .tippy-arrow::before {
+  border-top-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-large'][data-placement^='bottom']
+  > .tippy-arrow::before {
+  border-bottom-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-large'][data-placement^='left']
+  > .tippy-arrow::before {
+  border-left-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-large'][data-placement^='right']
+  > .tippy-arrow::before {
+  border-right-color: #2a2f45;
+}
+
+.tippy-box[data-theme~='annotate-dark-medium'] {
+  background-color: #2a2f45;
+  filter: drop-shadow(0px 1px 2px #a3acb9);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.tippy-box[data-theme~='annotate-dark-medium'] .tippy-content {
+  padding: 4px 6px;
+}
+
+.tippy-box[data-theme~='annotate-dark-medium'][data-placement^='top']
+  > .tippy-arrow::before {
+  border-top-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-medium'][data-placement^='bottom']
+  > .tippy-arrow::before {
+  border-bottom-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-medium'][data-placement^='left']
+  > .tippy-arrow::before {
+  border-left-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-medium'][data-placement^='right']
+  > .tippy-arrow::before {
+  border-right-color: #2a2f45;
+}
+
+.tippy-box[data-theme~='annotate-dark-small'] {
+  background-color: #2a2f45;
+  filter: drop-shadow(0px 1px 2px #a3acb9);
+  color: #fff;
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.tippy-box[data-theme~='annotate-dark-small'] .tippy-content {
+  padding: 2px 4px;
+}
+
+.tippy-box[data-theme~='annotate-dark-small'][data-placement^='top']
+  > .tippy-arrow::before {
+  border-top-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-small'][data-placement^='bottom']
+  > .tippy-arrow::before {
+  border-bottom-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-small'][data-placement^='left']
+  > .tippy-arrow::before {
+  border-left-color: #2a2f45;
+}
+.tippy-box[data-theme~='annotate-dark-small'][data-placement^='right']
+  > .tippy-arrow::before {
+  border-right-color: #2a2f45;
+}
+
+::selection {
+  background: #e3e8ee;
+}
+
+::-moz-selection {
+  background: #e3e8ee;
+}
+
+svg {
+  color: inherit;
+}

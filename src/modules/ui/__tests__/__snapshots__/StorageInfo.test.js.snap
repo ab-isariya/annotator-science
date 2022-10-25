@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StorageInfo/> Renders with a 100% total 1`] = `
+<div
+  className="m-2.5 p-4 bg-white rounded-md"
+>
+  <div
+    className="flex items-center space-x-2.5 font-inter font-light text-base leading-6"
+  >
+    <svg>
+      Storage.svg
+    </svg>
+    <div>
+      Storage
+    </div>
+  </div>
+  <div
+    className="mt-2.5 mb-1 font-inter font-normal text-sm leading-5 text-blue-500"
+  >
+    <b
+      className="font-medium"
+    >
+      100.0B
+    </b>
+     of
+     
+    100.0B
+  </div>
+  <div
+    className="sc-bdvvtL dxGirE relative bg-grey-100 rounded-md my-0.5"
+  >
+    <div
+      className="sc-gsDKAQ jmTlin h-full relative overflow-hidden rounded-md"
+      size={100}
+    >
+       
+    </div>
+  </div>
+  <p
+    className="mb-4 font-inter font-normal text-xs leading-4"
+  >
+    5Mb/doc upload limit
+  </p>
+  <button
+    className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+    fullWidth={true}
+  >
+    Upgrade
+  </button>
+</div>
+`;
+
+exports[`<StorageInfo/> Renders with a negative percentage 1`] = `
+<div
+  className="m-2.5 p-4 bg-white rounded-md"
+>
+  <div
+    className="flex items-center space-x-2.5 font-inter font-light text-base leading-6"
+  >
+    <svg>
+      Storage.svg
+    </svg>
+    <div>
+      Storage
+    </div>
+  </div>
+  <div
+    className="mt-2.5 mb-1 font-inter font-normal text-sm leading-5 text-blue-500"
+  >
+    <b
+      className="font-medium"
+    >
+      NaNundefined
+    </b>
+     of
+     
+    100.0B
+  </div>
+  <div
+    className="sc-bdvvtL dxGirE relative bg-grey-100 rounded-md my-0.5"
+  >
+    <div
+      className="sc-gsDKAQ iWdJco h-full relative overflow-hidden rounded-md"
+      size={-25}
+    >
+       
+    </div>
+  </div>
+  <p
+    className="mb-4 font-inter font-normal text-xs leading-4"
+  >
+    5Mb/doc upload limit
+  </p>
+  <button
+    className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+    fullWidth={true}
+  >
+    Upgrade
+  </button>
+</div>
+`;
+
+exports[`<StorageInfo/> Renders with a positive percentage 1`] = `
+<div
+  className="m-2.5 p-4 bg-white rounded-md"
+>
+  <div
+    className="flex items-center space-x-2.5 font-inter font-light text-base leading-6"
+  >
+    <svg>
+      Storage.svg
+    </svg>
+    <div>
+      Storage
+    </div>
+  </div>
+  <div
+    className="mt-2.5 mb-1 font-inter font-normal text-sm leading-5 text-blue-500"
+  >
+    <b
+      className="font-medium"
+    >
+      25.0B
+    </b>
+     of
+     
+    100.0B
+  </div>
+  <div
+    className="sc-bdvvtL dxGirE relative bg-grey-100 rounded-md my-0.5"
+  >
+    <div
+      className="sc-gsDKAQ iReeWR h-full relative overflow-hidden rounded-md"
+      size={25}
+    >
+       
+    </div>
+  </div>
+  <p
+    className="mb-4 font-inter font-normal text-xs leading-4"
+  >
+    5Mb/doc upload limit
+  </p>
+  <button
+    className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+    fullWidth={true}
+  >
+    Upgrade
+  </button>
+</div>
+`;
+
+exports[`<StorageInfo/> Renders with a total greater than 100% 1`] = `
+<div
+  className="m-2.5 p-4 bg-white rounded-md"
+>
+  <div
+    className="flex items-center space-x-2.5 font-inter font-light text-base leading-6"
+  >
+    <svg>
+      Storage.svg
+    </svg>
+    <div>
+      Storage
+    </div>
+  </div>
+  <div
+    className="mt-2.5 mb-1 font-inter font-normal text-sm leading-5 text-blue-500"
+  >
+    <b
+      className="font-medium"
+    >
+      110.0B
+    </b>
+     of
+     
+    100.0B
+  </div>
+  <div
+    className="sc-bdvvtL dxGirE relative bg-grey-100 rounded-md my-0.5"
+  >
+    <div
+      className="sc-gsDKAQ jnbHMu h-full relative overflow-hidden rounded-md"
+      size={110}
+    >
+       
+    </div>
+  </div>
+  <p
+    className="mb-4 font-inter font-normal text-xs leading-4"
+  >
+    5Mb/doc upload limit
+  </p>
+  <button
+    className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+    fullWidth={true}
+  >
+    Upgrade
+  </button>
+</div>
+`;
+
+exports[`<StorageInfo/> Renders without crashing 1`] = `
+<div
+  className="m-2.5 p-4 bg-white rounded-md"
+>
+  <div
+    className="flex items-center space-x-2.5 font-inter font-light text-base leading-6"
+  >
+    <svg>
+      Storage.svg
+    </svg>
+    <div>
+      Storage
+    </div>
+  </div>
+  <div
+    className="mt-2.5 mb-1 font-inter font-normal text-sm leading-5 text-blue-500"
+  >
+    <b
+      className="font-medium"
+    >
+      100.0B
+    </b>
+     of
+     
+    150.0B
+  </div>
+  <div
+    className="sc-bdvvtL dxGirE relative bg-grey-100 rounded-md my-0.5"
+  >
+    <div
+      className="sc-gsDKAQ bByECZ h-full relative overflow-hidden rounded-md"
+      size={66.66666666666667}
+    >
+       
+    </div>
+  </div>
+  <p
+    className="mb-4 font-inter font-normal text-xs leading-4"
+  >
+    5Mb/doc upload limit
+  </p>
+  <button
+    className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+    fullWidth={true}
+  >
+    Upgrade
+  </button>
+</div>
+`;

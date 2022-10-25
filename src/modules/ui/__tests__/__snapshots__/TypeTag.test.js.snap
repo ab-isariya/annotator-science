@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TypeTag/> Renders with a defined size 1`] = `
+<div
+  className="relative flex-1"
+>
+  <div
+    className="absolute h-full left-0 rounded-r-md bg-red-50"
+    style={
+      Object {
+        "width": "20%",
+      }
+    }
+  />
+  <div
+    className="relative flex items-center px-1.5 py-0.5"
+  >
+    <svg>
+      anatomy_physiology.svg
+    </svg>
+     
+    <span
+      className="capitalize font-inter font-normal text-xs text-red-500"
+    >
+      anatomy & physiology
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<TypeTag/> Renders without crashing 1`] = `
+<div
+  className="relative flex-1"
+>
+  <div
+    className="absolute h-full left-0 rounded-r-md bg-red-50"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="relative flex items-center px-1.5 py-0.5"
+  >
+    <svg>
+      anatomy_physiology.svg
+    </svg>
+     
+    <span
+      className="capitalize font-inter font-normal text-xs text-red-500"
+    >
+      anatomy & physiology
+    </span>
+  </div>
+</div>
+`;

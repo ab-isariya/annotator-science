@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Label/> Renders it's children 1`] = `
+<span
+  className="block font-inter uppercase undefined text-sm leading-5 "
+>
+  Hello
+</span>
+`;
+
+exports[`<Label/> Renders with a custom classname 1`] = `
+<span
+  className="block font-inter uppercase testClass text-sm leading-5 "
+/>
+`;
+
+exports[`<Label/> Renders with small size styles 1`] = `
+<span
+  className="block font-inter uppercase undefined text-xs leading-4 "
+/>
+`;
+
+exports[`<Label/> Renders with the secondary styles 1`] = `
+<span
+  className="block font-inter uppercase undefined text-grey-500 text-sm leading-5 "
+/>
+`;
+
+exports[`<Label/> Renders with with the primary styles 1`] = `
+<span
+  className="block font-inter uppercase undefined text-grey-900 text-sm leading-5 "
+/>
+`;
+
+exports[`<Label/> Renders without crashing 1`] = `
+<span
+  className="block font-inter uppercase undefined text-sm leading-5 "
+/>
+`;

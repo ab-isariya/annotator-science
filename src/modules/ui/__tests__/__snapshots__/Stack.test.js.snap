@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stack/> Renders with a custom classname 1`] = `
+<div
+  className="testClass relative"
+>
+  <p>
+    Hello
+  </p>
+  <div
+    className="absolute top-2/4 left-2/4"
+    style={
+      Object {
+        "transform": "translate(-50%, -50%)",
+      }
+    }
+  >
+    <p>
+      World
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Stack/> Renders without crashing 1`] = `
+<div
+  className=" relative"
+>
+  <p>
+    Hello
+  </p>
+  <div
+    className="absolute top-2/4 left-2/4"
+    style={
+      Object {
+        "transform": "translate(-50%, -50%)",
+      }
+    }
+  >
+     
+  </div>
+</div>
+`;
+
+exports[`<Stack/> Renders without crashing with more than 2 children 1`] = `
+<div
+  className=" relative"
+>
+  <p>
+    Hello
+  </p>
+  <div
+    className="absolute top-2/4 left-2/4"
+    style={
+      Object {
+        "transform": "translate(-50%, -50%)",
+      }
+    }
+  >
+    <p>
+      World
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Stack/> Renders without crashing with only 1 child 1`] = `
+<div
+  className=" relative"
+>
+  <div
+    className="absolute top-2/4 left-2/4"
+    style={
+      Object {
+        "transform": "translate(-50%, -50%)",
+      }
+    }
+  />
+</div>
+`;

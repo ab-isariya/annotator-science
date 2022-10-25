@@ -1,0 +1,34 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "0"
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = "default-src 'self' *.sentry.io *.science.io *.amazonaws.com; frame-ancestors 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; script-src 'self' *.science.io; style-src 'self' 'unsafe-inline'; font-src 'self' data:; base-uri 'self'"
+    Feature-Policy = "microphone 'none'; camera 'none'; geolocation 'none';"
+  
+[[plugins]]
+# runs Cypress tests against the deployed URL
+package = "netlify-plugin-cypress"
+  [plugins.inputs.preBuild]
+  enable = false
+  # skip the default tests before the deploy
+  skip = true
+  record = true
+  [plugins.inputs.postBuild]
+    # run tests after the deploy
+  enable = true
+  [plugins.inputs]
+  enable = false
+
+# Commenting this out until we have time to fix project vulnerabilities.
+# [[plugins]]
+#  package = "netlify-plugin-snyk"
+
+[build.environment]
+# cache Cypress binary in local "node_modules" folder
+# so Netlify caches it
+CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+# set TERM variable for terminal output
+TERM = "xterm"

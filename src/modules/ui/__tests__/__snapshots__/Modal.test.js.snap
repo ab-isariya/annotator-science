@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal/> Renders nothing when open is false 1`] = `null`;
+
+exports[`<Modal/> Renders the modal when open is true 1`] = `
+<div
+  className="fixed z-10 inset-0 overflow-y-auto flex"
+  data-testid="modal"
+>
+  <div
+    className="relative p-8 bg-white w-full max-w-lg m-auto flex-col flex rounded-md border border-grey-500"
+  >
+    <span
+      className="absolute top-0 right-0 p-4"
+    >
+      <svg
+        onClick={[Function]}
+        style={
+          Object {
+            "filter": "brightness(0) saturate(100%) invert(42%) sepia(23%) saturate(354%) hue-rotate(182deg) brightness(94%) contrast(85%)",
+          }
+        }
+      >
+        Close.svg
+      </svg>
+    </span>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`<Modal/> Renders without crashing 1`] = `null`;

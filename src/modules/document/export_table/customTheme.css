@@ -1,0 +1,55 @@
+/* https://www.ag-grid.com/documentation/react/themes-customising/#full-list-of-theme-parameters */
+.ag-theme-material {
+  /* use theme parameters where possible */
+  --ag-header-background-color: #f3f7fa; /* Grey 50 */
+  --ag-border-color: #c1c9d2; /* top and bottom border of table body */
+  --ag-row-border-color: #fff; /* border between grid rows */
+  --ag-header-foreground-color: #000;
+}
+
+.my-files.ag-empty .ag-body-viewport {
+  display: none !important;
+}
+
+.ag-row:not(:last-child) {
+  border-bottom: 1px solid #c1c9d2;
+}
+
+/* Override weight in header: default 600 */
+.ag-theme-material .ag-header-row {
+  font-weight: 400;
+}
+
+/* Move pagination to the top */
+.ag-theme-material {
+  background-color: transparent;
+  margin-top: -20px;
+  font-family: Inter, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.ag-paging-panel > span {
+  color: black !important;
+}
+
+.ag-root-wrapper {
+  position: relative !important;
+}
+
+.ag-root-wrapper-body {
+  border-top: 1px solid #c1c9d2; /* Grey 200 */
+  margin-top: 50px;
+}
+
+.ag-paging-panel {
+  border-top: none !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+}
+
+.ag-header-cell-text {
+  font-family: Inter;
+  font-size: 14px;
+}
+/* End pagination to the top */

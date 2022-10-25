@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button/> Renders it's children 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  Hello
+</button>
+`;
+
+exports[`<Button/> Renders the primary dark styles 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-grey-600 hover:bg-grey-500 focus:bg-grey-500 focus:drop-shadow-focus-dark flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  Button
+</button>
+`;
+
+exports[`<Button/> Renders the primary dark styles 2`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-grey-600 hover:bg-grey-500 focus:bg-grey-500 focus:drop-shadow-focus-dark flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+   Button
+</button>
+`;
+
+exports[`<Button/> Renders the primary dark styles 3`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-grey-600 hover:bg-grey-500 focus:bg-grey-500 focus:drop-shadow-focus-dark flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary dark styles 4`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-grey-600 disabled:bg-grey-700 disabled:text-grey-400 cursor-not-allowed flex flex-row items-center gap-x-2 text-sm p-2.5"
+  disabled={true}
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary dark styles 5`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-grey-600 hover:bg-grey-500 focus:bg-grey-500 focus:drop-shadow-focus-dark flex flex-row items-center gap-x-2 text-sm p-2"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary dark styles 6`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-grey-600 hover:bg-grey-500 focus:bg-grey-500 focus:drop-shadow-focus-dark flex flex-row items-center gap-x-2 text-base p-3"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary red styles 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-red-600 hover:bg-red-700 focus:bg-red-700 focus:drop-shadow-focus-red flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  Button
+</button>
+`;
+
+exports[`<Button/> Renders the primary red styles 2`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-red-600 hover:bg-red-700 focus:bg-red-700 focus:drop-shadow-focus-red flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+   Button
+</button>
+`;
+
+exports[`<Button/> Renders the primary red styles 3`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-red-600 hover:bg-red-700 focus:bg-red-700 focus:drop-shadow-focus-red flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary red styles 4`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  disabled:bg-grey-100 disabled:text-grey-300 bg-red-600 cursor-not-allowed flex flex-row items-center gap-x-2 text-sm p-2.5"
+  disabled={true}
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary red styles 5`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-red-600 hover:bg-red-700 focus:bg-red-700 focus:drop-shadow-focus-red flex flex-row items-center gap-x-2 text-sm p-2"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary red styles 6`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  text-white bg-red-600 hover:bg-red-700 focus:bg-red-700 focus:drop-shadow-focus-red flex flex-row items-center gap-x-2 text-base p-3"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary styles 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  Button
+</button>
+`;
+
+exports[`<Button/> Renders the primary styles 2`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+   Button
+</button>
+`;
+
+exports[`<Button/> Renders the primary styles 3`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary styles 4`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-blue-500 disabled:bg-grey-100 disabled:text-grey-300 cursor-not-allowed flex flex-row items-center gap-x-2 text-sm p-2.5"
+  disabled={true}
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary styles 5`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the primary styles 6`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-base p-3"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the secondary styles 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  Button
+</button>
+`;
+
+exports[`<Button/> Renders the secondary styles 2`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+   Button
+</button>
+`;
+
+exports[`<Button/> Renders the secondary styles 3`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the secondary styles 4`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border disabled:text-grey-200 disabled:border-grey-200 cursor-not-allowed flex flex-row items-center gap-x-2 text-sm p-2.5"
+  disabled={true}
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the secondary styles 5`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the secondary styles 6`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-base p-3"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the secondary vertical styles 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button rounded-md px-1.5 py-1.5 flex flex-col items-center justify-center text-xs gap-y-1 flex flex-row items-center gap-x-2 text-xs p-2.5"
+>
+  Button
+</button>
+`;
+
+exports[`<Button/> Renders the secondary vertical styles 2`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button rounded-md px-1.5 py-1.5 flex flex-col items-center justify-center text-xs gap-y-1 flex flex-row items-center gap-x-2 text-xs p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+   Button
+</button>
+`;
+
+exports[`<Button/> Renders the secondary vertical styles 3`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button rounded-md px-1.5 py-1.5 flex flex-col items-center justify-center text-xs gap-y-1 flex flex-row items-center gap-x-2 text-xs p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the secondary vertical styles 4`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border disabled:text-grey-200 disabled:border-grey-200 rounded-md px-1.5 py-1.5 flex flex-col items-center justify-center text-xs gap-y-1 cursor-not-allowed flex flex-row items-center gap-x-2 text-xs p-2.5"
+  disabled={true}
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the secondary vertical styles 5`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button rounded-md px-1.5 py-1.5 flex flex-col items-center justify-center text-xs gap-y-1 flex flex-row items-center gap-x-2 text-xs p-2"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the secondary vertical styles 6`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-white border border-grey-500 hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button rounded-md px-1.5 py-1.5 flex flex-col items-center justify-center text-xs gap-y-1 flex flex-row items-center gap-x-2 text-xs p-3"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary blue styles 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  focus:bg-grey-50 focus:drop-shadow-focus-button bg-grey-50 hover:bg-grey-100 flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  Button
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary blue styles 2`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  focus:bg-grey-50 focus:drop-shadow-focus-button bg-grey-50 hover:bg-grey-100 flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+   Button
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary blue styles 3`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  focus:bg-grey-50 focus:drop-shadow-focus-button bg-grey-50 hover:bg-grey-100 flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary blue styles 4`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  disabled:text-grey-200 bg-grey-50 cursor-not-allowed flex flex-row items-center gap-x-2 text-sm p-2.5"
+  disabled={true}
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary blue styles 5`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  focus:bg-grey-50 focus:drop-shadow-focus-button bg-grey-50 hover:bg-grey-100 flex flex-row items-center gap-x-2 text-sm p-2"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary blue styles 6`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  focus:bg-grey-50 focus:drop-shadow-focus-button bg-grey-50 hover:bg-grey-100 flex flex-row items-center gap-x-2 text-base p-3"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary styles 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-transparent hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  Button
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary styles 2`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-transparent hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+   Button
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary styles 3`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-transparent hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary styles 4`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  disabled:text-grey-200 cursor-not-allowed flex flex-row items-center gap-x-2 text-sm p-2.5"
+  disabled={true}
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary styles 5`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-transparent hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders the tertiary styles 6`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-transparent hover:bg-grey-50 focus:bg-grey-50 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-base p-3"
+>
+  <svg>
+    PlusSign.svg
+  </svg>
+</button>
+`;
+
+exports[`<Button/> Renders with a custom classname 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none testClass bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+/>
+`;
+
+exports[`<Button/> Renders without crashing 1`] = `
+<button
+  className="filter rounded-md font-inter transition-all outline-none  bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 focus:drop-shadow-focus-button flex flex-row items-center gap-x-2 text-sm p-2.5"
+/>
+`;

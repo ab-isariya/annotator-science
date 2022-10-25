@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title/> Renders with an unsupported size 1`] = `
+<p
+  className="font-inter font-light text-base leading-6 undefined"
+/>
+`;
+
+exports[`<Title/> Renders with children 1`] = `
+<h1
+  className="font-inter font-light text-2xl leading-9 undefined"
+>
+  Hello
+</h1>
+`;
+
+exports[`<Title/> Renders with size lg 1`] = `
+<h2
+  className="font-inter font-light text-base leading-6 undefined"
+/>
+`;
+
+exports[`<Title/> Renders with size xl 1`] = `
+<h1
+  className="font-inter font-light text-2xl leading-9 undefined"
+/>
+`;
+
+exports[`<Title/> Renders without crashing 1`] = `
+<h1
+  className="font-inter font-light text-2xl leading-9 undefined"
+/>
+`;
